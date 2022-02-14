@@ -1,0 +1,68 @@
+body, input, footer i {
+    background-color: #1E202B !important;
+}
+
+/*navbar start*/
+li a:hover {
+    color: #0a88b9 !important;
+
+    box-sizing: border-box;
+}
+
+li:hover {
+    border: 1px solid #0a88b9;
+    border-radius: 50rem;
+}
+
+li a:focus {
+    color: white;
+    border: 1px dashed white;
+    border-radius: 50rem;
+    box-sizing: border-box;
+}
+
+small {
+    font-size: 10px;
+
+}
+
+/*navbar end*/
+
+
+/*main section start*/
+.main {
+    background-image: url('../images/banner.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+
+    padding-left: unset;
+}
+
+.search button {
+    right: 3%;
+    top: 13%;
+    padding: 25px;
+}
+
+
+.card-body p {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+/*main section end*/
+
+/*footer start*/
+footer {
+    background-color: #262936;
+}
+
+footer a i:hover {
+    background-color: #0a88b9 !important;
+    color: white !important;
+}
+
+/*footer end*/
